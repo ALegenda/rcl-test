@@ -5,9 +5,9 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "env-cmd -f ./src/env/DEV.env react-scripts start",
-    "build": "env-cmd -f ./src/env/DEV.env react-scripts build",
-    "test": "env-cmd -f ./src/env/DEV.env react-scripts test",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -29,6 +29,7 @@
     ]
   },
   "dependencies": {
+    "gh-pages": "4.0.0",
     "@fontsource/roboto-condensed": "^4.5.9",
     "@types/jest": "^28.1.4",
     "@types/node": "^18.0.2",
