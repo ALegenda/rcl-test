@@ -7,17 +7,18 @@ import ColoredImage from './ColoredImage';
 import GreyStuff from './GreyStuff';
 import RedStuff from './RedStuff';
 
-import greyFlash1Image from './media/grey-flash1.svg';
-import greyFlash2Image from './media/grey-flash2.svg';
-import peopleBg1Image from './media/people-bg1.png';
-import peopleBg2Image from './media/people-bg2.png';
-import peopleBg3Image from './media/people-bg3.png';
-import people1Image from './media/people1.png';
-import people2Image from './media/people2.png';
-import people3Image from './media/people3.png';
-import redFlash1Image from './media/red-flash1.svg';
-import redFlash2Image from './media/red-flash2.svg';
-import redFlash3Image from './media/red-flash3.svg';
+import greyFlash1Image from "./Home/Background/media/grey-flash1.svg";
+import greyFlash2Image from './Home/media/grey-flash2.svg';
+import peopleBg1Image from './Home/media/people-bg1.png';
+import peopleBg2Image from './Home/media/people-bg2.png';
+import peopleBg3Image from './Home/media/people-bg3.png';
+import people1Image from './Home/media/people1.png';
+import people2Image from './Home/media/people2.png';
+import people3Image from './Home/media/people3.png';
+import redFlash1Image from './Home/media/red-flash1.svg';
+import redFlash2Image from './Home/media/red-flash2.svg';
+import redFlash3Image from './Home/media/red-flash3.svg';
+
 
 import styles from './Background.module.scss';
 
