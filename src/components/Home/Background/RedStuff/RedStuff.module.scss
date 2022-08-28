@@ -1,0 +1,161 @@
+@import 'constants';
+
+.s1 {
+    position: absolute;
+
+    left: 156px;
+    bottom: 338px;
+
+    width: 8px;
+    height: 90px;
+
+    background: $red;
+    z-index: 1;
+}
+
+.s2 {
+    position: absolute;
+
+    left: 249px;
+    bottom: 365px;
+
+    width: 13px;
+    height: 13px;
+
+    background: $red;
+}
+
+.s3 {
+    position: absolute;
+
+    left: 878px;
+    top: 395px;
+
+    width: 44px;
+    height: 14px;
+
+    background: $red;
+}
+
+.s4 {
+    position: absolute;
+
+    right: 849px;
+    top: 450px;
+
+    width: 23px;
+    height: 23px;
+
+    background: $red;
+}
+
+.s5 {
+    position: absolute;
+
+    right: 837px;
+    top: 473px;
+
+    width: 12px;
+    height: 12px;
+
+    background: $red;
+}
+
+.s6 {
+    position: absolute;
+
+    right: 754px;
+    top: 127px;
+
+    width: 83px;
+    height: 6px;
+
+    background: $red;
+}
+
+.s7 {
+    position: absolute;
+
+    right: 754px;
+    top: 132px;
+
+    width: 24px;
+    height: 6px;
+
+    background: $red;
+}
+
+.s8 {
+    position: absolute;
+
+    right: 748px;
+    top: 121px;
+
+    width: 6px;
+    height: 6px;
+
+    background: $red;
+}
+
+.s9 {
+    position: absolute;
+
+    right: 504px;
+    top: 439px;
+
+    width: 56px;
+    height: 56px;
+
+    background: $red;
+    z-index: 1;
+}
+
+.s10 {
+    position: absolute;
+
+    right: 407px;
+    top: 167px;
+
+    width: 46px;
+    height: 46px;
+
+    background: $red;
+}
+
+.s11 {
+    position: absolute;
+
+    right: 361px;
+    top: 121px;
+
+    width: 46px;
+    height: 46px;
+
+    background: $red;
+}
+
+.s12 {
+    position: absolute;
+
+    right: 402px;
+    top: 899px;
+
+    width: 174px;
+    height: 7px;
+
+    background: $red;
+    z-index: 2;
+}
+
+.s13 {
+    position: absolute;
+
+    right: 394px;
+    top: 906px;
+
+    width: 8px;
+    height: 8px;
+
+    background: $red;
+    z-index: 2;
+}

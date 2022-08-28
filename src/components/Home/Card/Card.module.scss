@@ -1,0 +1,40 @@
+@import 'constants';
+@import 'tools/styles/flex';
+
+.card {
+    @include dFlex();
+    @include flexRow();
+    @include justifyContentCenter();
+    @include alignItemsCenter();
+
+    position: relative;
+
+    border: 1px solid $borderBlue;
+    background: $black;
+
+    z-index: 2;
+
+    .image {
+        position: absolute;
+
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+
+        z-index: 0;
+    }
+    .title {
+        font-style: normal;
+        font-weight: 700;
+
+        font-size: 36px;
+        line-height: 42px;
+
+        color: $white;
+        text-align: center;
+        text-transform: uppercase;
+
+        z-index: 40;
+    }
+}

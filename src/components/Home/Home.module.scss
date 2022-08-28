@@ -1,0 +1,89 @@
+@import 'constants';
+@import 'tools/styles/flex';
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+
+    background: $black;
+
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+    .smallLogo {
+        @include dFlex();
+        @include flexRow();
+        @include justifyContentCenter();
+
+        margin-bottom: 16px;
+
+        img {
+            width: 49px;
+            height: 55px;
+        }
+    }
+    .main {
+        @include dFlex();
+        @include flexRow();
+        @include justifyContentCenter();
+        @include alignItemsCenter();
+
+        margin-bottom: 70px;
+
+        .logo {
+            margin-right: 105px;
+
+            img {
+                width: 415px;
+                height: 464px;
+            }
+        }
+        .title {
+            z-index: 2;
+
+            font-style: normal;
+            font-weight: 700;
+
+            font-size: 101.547px;
+            line-height: 119px;
+
+            color: $white;
+            text-transform: uppercase;
+        }
+    }
+    .description {
+        @include dFlex();
+        @include flexRow();
+        @include justifyContentCenter();
+
+        font-style: normal;
+        font-weight: 800;
+
+        font-size: 24px;
+        line-height: 28px;
+
+        color: $white;
+
+        margin-bottom: 63px;
+
+        .red {
+            color: $red;
+
+            margin-right: 5px;
+        }
+    }
+    .cards {
+        @include dFlex();
+        @include flexRow();
+        @include justifyContentCenter();
+
+        .card {
+            width: 458px;
+            height: 218px;
+        }
+        .cardCenter {
+            width: 494px;
+            height: 218px;
+        }
+    }
+}

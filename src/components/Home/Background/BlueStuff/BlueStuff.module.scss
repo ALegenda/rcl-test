@@ -1,0 +1,79 @@
+@import 'constants';
+
+.s1 {
+    position: absolute;
+
+    left: 352px;
+    top: 951px;
+
+    width: 10px;
+    height: 10px;
+
+    background: $blue;
+    z-index: 2;
+}
+
+.s2 {
+    position: absolute;
+
+    left: 362px;
+    top: 961px;
+
+    width: 118px;
+    height: 10px;
+
+    background: $blue;
+    z-index: 2;
+}
+
+.s3 {
+    position: absolute;
+
+    left: 756px;
+    top: 381px;
+
+    width: 122px;
+    height: 14px;
+
+    background: $blue;
+    z-index: 2;
+}
+
+.s4 {
+    position: absolute;
+
+    top: 429px;
+    right: 550px;
+
+    width: 20px;
+    height: 20px;
+
+    background: $blue;
+    z-index: 2;
+}
+
+.s5 {
+    position: absolute;
+
+    right: 348px;
+    bottom: 534px;
+
+    width: 183px;
+    height: 14px;
+
+    background: $blue;
+    z-index: 1;
+}
+
+.s6 {
+    position: absolute;
+
+    right: 334px;
+    bottom: 548px;
+
+    width: 14px;
+    height: 14px;
+
+    background: $blue;
+    z-index: 1;
+}
